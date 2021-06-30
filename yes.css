@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bg
+{
+    width: 1920px;
+    height: 947px;
+    filter: blur(50px);
+}
+.real_img
+{
+    position: absolute;
+    top: 0px;
+    left: 487px;
+    width: 947px;
+    height: 947px;
+
+}
+header
+{
+    position: absolute;
+    top: 32px;
+    left: 30px;
+}
