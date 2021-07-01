@@ -35,6 +35,7 @@
 .nav img
 {
     position: relative;
+    top: -10px;
     margin-left: 7px;
     height: 61px;
     width: 153px;
