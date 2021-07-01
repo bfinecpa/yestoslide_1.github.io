@@ -24,6 +24,7 @@
     display: flex;
     position: absolute;
     width: 100%;
+    left: 33px;
     height: 34px;
     top: 20px;
     margin: 0px;
@@ -35,15 +36,14 @@
 {
     position: relative;
     height: 34px;
-    left: 33px;
+    width: 90px;
+    
 }
 .user_name
 {
     display: flex;
-    
-    position: relative;
-    left: 757px;
-    height: 34px;
+    margin-left: 700px;
+
     width: 406px;
     opacity: 0.7;
     border-radius: 17px;
@@ -85,77 +85,90 @@
     color: #ffffff;
 
 }
+
+.right_menu_bar
+{
+    display: flex;
+    margin-left: 400px;
+}
+
+
+
 .left_right
 {
     display: flex;
-    position: relative;
-    left: 1110px;
-    opacity: 0.7;
+    background: url(yes_img/bg_slideBar.svg);
+    width: 69px;
+    height: 34px ;
 }
-
-
 
 .left
 {
-    position: relative;
-    left: -70px;
-    
+    background: url(yes_img/button_previous.svg);
+    width: 30px;
+    cursor: pointer;
 }
-
-
 .right
 {
-    position: relative;
-    left: -67px;
-    
+    margin-left: 5px;
+    background: url(yes_img/button_next.svg);
+    width:30px;
+    cursor: pointer;
 }
 
 .auto
 {
-    position: relative;
-    left: 1045px;
+    margin-left: 4px;
+    background: url(yes_img/button_autoSlidesShow.svg);
     width: 69px;
-    height: 34px;
-    opacity: 0.7;
+    cursor: pointer;
+    border: none;
 }
-
 .setting
 {
-    position: relative;
-    left: 1050px;
-    opacity: 0.7;
+    margin-left: 4px;
+    background: url(yes_img/button_settings.svg);
+    width: 34px;
+    cursor: pointer;
 }
 
-.menu 
+.option
 {
     display: flex;
-    position: relative;
-    left: 1055px;
-    opacity: 0.7
+    margin-left: 20px;
+    background: url(yes_img/bg_menuBar.svg);
+    width: 118px;
 }
-
-.button img
+.img_button
 {
-    position: relative;
-    left: -76px;
+    
+    margin-left: 8px;
+    margin-top: 7px;
+    background: url(yes_img/button_collecting_On.svg);
     width: 34px;
+    cursor: pointer;
     height: 20px;
-    top:3px;
 }
-.picture img
+.picture
 {
-    position: relative;
-    left: -70px;
+    margin-left: 8px;
+    background: url(yes_img/button_images&videos.svg);
     width: 23px;
     height: 20px;
-    top: 3px;
+    margin-top: 7px;
+    cursor: pointer;
+}
+.parti
+{
+    margin-left: 15px;
+    background: url(yes_img/button_participants.svg);
+    width: 20px;
+    height: 20px;
+    margin-top: 7px;
+
+}
+.test
+{
+    border: 1px solid red;
 }
 
-.parti img
-{
-    position: relative;
-    left: -55px;
-    width: 23px;
-    height: 20px;
-    top: 3px;
-}
