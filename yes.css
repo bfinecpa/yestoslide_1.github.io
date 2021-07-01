@@ -42,8 +42,10 @@
 }
 .user_name
 {
+    height: 34px;
+    position: absolute;
     display: flex;
-    margin-left: 620px;
+    margin-left: 757px;
 
     width: 406px;
     opacity: 0.7;
@@ -89,8 +91,9 @@
 
 .right_menu_bar
 {
+    position: absolute;
     display: flex;
-    margin-left: 420px;
+    margin-left: 1582px;
 }
 
 
