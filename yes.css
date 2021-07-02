@@ -18,9 +18,10 @@ html, body
 {
     position: absolute;
     top: 0px;
-    left: 25%;
-    width: 50%;
-    height: 100%;
+    left: 50%;
+    width: 947px;
+    height: 947px;
+    transform: translateX(-50%);
 
 }
 .nav
