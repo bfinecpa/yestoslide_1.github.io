@@ -15,7 +15,7 @@
     <img class="real_img" src="yes_img/bg.jpg" alt="">
     <div class="nav">
         <div>
-            <img src="yes_img/logo.png" alt="">
+            <img class="logo" src="yes_img/logo.png" alt="">
         </div>
         <div class="user_name"> <!-- nav가 flex인데 이 아이템만 가운데 오게끔 하는거 없나?-->
             <span class="name">
@@ -31,7 +31,8 @@
                 <div class="left"></div>
                 <div class="right"> </div>
             </div>
-            <input type="button" class="auto"  </input>
+            <img class="auto" src="yes_img/button_autoSlidesShow.svg" alt=""
+                onclick="tog()">
             <div class="setting"></div>
             <div class="option">
                 <div class="img_button"></div>
@@ -45,18 +46,16 @@
 </body>
 </html>
 
+<script>
+    function tog() {
+        if(document.document.querySelector('.auto').src==="yes_img/button_autoSlidesShow.svg")
+        {document.querySelector('.auto').src = "yes_img/button_manualSlidesShow.svg";}
+        else{
+            document.document.querySelector('.auto').src="yes_img/button_autoSlidesShow.svg";
+        }
 
-<!--<
-        <div class="menu">
-            <img src="yes_img/bg_menuBar.svg" alt="">
-            <div class="button">
-                <img src="yes_img/button_collecting_On.svg" alt="">
-            </div>
-            <div class="picture"> 
-                <img src="yes_img/button_images&videos.svg" alt="">
-            </div>
-            <div class="parti">
-                <img src="yes_img/button_participants.svg" alt="">
+        
+        
 
-            </div>
-        </>-->
+    }
+</script>  
