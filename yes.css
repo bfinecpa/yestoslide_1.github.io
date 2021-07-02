@@ -51,8 +51,8 @@ html, body
     height: 34px;
     position: absolute;
     display: flex;
-    left: 39%;
-
+    left: 50%;
+    transform: translateX(-50%);
     width: 406px;
     opacity: 0.7;
     border-radius: 17px;
@@ -99,8 +99,9 @@ html, body
 {
     position: absolute;
     display: flex;
-    left: 82%;
+    left: 99%;
     height: 34px;
+    transform: translateX(-99%);
 }
 
 
